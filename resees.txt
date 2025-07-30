@@ -1,7 +1,6 @@
 \documentclass[10pt, letterpaper]{article}
 \usepackage[ignoreheadfoot,top=2cm,bottom=2cm,left=2cm,right=2cm,footskip=1.0cm]{geometry}
 \usepackage{titlesec}
-\usepackage{paracol}
 \usepackage{enumitem}
 \usepackage{array}
 \usepackage[dvipsnames]{xcolor}
@@ -14,62 +13,67 @@
 \setlength{\parskip}{0pt}
 \setlength{\baselineskip}{11pt}
 \renewcommand{\baselinestretch}{0.9}
-\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\renewcommand\labelitemi{$\bullet$}
 \titleformat{\section}{\bfseries\large}{}{0pt}{}[\titlerule]
 \titlespacing*{\section}{0pt}{8pt}{4pt}
-\newenvironment{highlights}{
-\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=10pt]
-}{
-\end{itemize}
-}
+
 \begin{document}
 \begin{center}
-{\fontsize{25 pt}{25 pt}\selectfont \textbf{Priyankshu Sinha}}\\[2pt]
-\href{mailto:priyankshusinha98@gmail.com}{priyankshusinha98@gmail.com} \quad \textbar \quad +91 93307-38467 \quad \textbar \quad 
-\href{https://github.com/Priyankshu-07}{github.com/Priyankshu-07}
+{\fontsize{20pt}{20pt}\selectfont \textbf{Priyankshu Sinha}} \\[4pt]
++91 93307-38467 | \href{mailto:priyankshusinha98@gmail.com}{priyankshusinha98@gmail.com} | \href{https://github.com/Priyankshu-07}{Github}
 \end{center}
-\vspace{-4pt}
+
 \section{Summary}
-Backend Developer skilled in building REST APIs, scalable microservices, and integrating AI-based tools using Python, FastAPI, and Node.js. Proficient in MongoDB, WebRTC, LangChain, and real-time communication systems. Adaptable team player focused on clean code and deployment-ready solutions.
+Backend Developer skilled in building REST APIs, and integrating AI-based tools using Python, FastAPI, and Node.js. Proficient in MongoDB, WebRTC, LangChain, and real-time communication systems. Adaptable team player focused on clean code and deployment-ready solutions.
+
 \section{Education}
-\textbf{Meghnad Saha Institute of Technology}, B.Tech in Computer Science and Technology \\
+\textbf{Meghnad Saha Institute of Technology} \hfill Kolkata, India \\
+Bachelor of Technology in Computer Science and Technology \\
 CGPA: 7.2
+
 \section{Experience}
-\textbf{Data Visualization Intern}, Lisica Tech \\
-\begin{highlights}
-\item Built interactive dashboards using Matplotlib, Seaborn, and KNIME in Python.
-\item Automated visual analytics for the UCL dataset on Google Colab.
-\end{highlights}
+\textbf{Pearl Thoughts} \hfill  \\
+\textbf{Backend Intern} \\
+\textbf{•} Technologies:Nodejs , expressjs,Javascript \\
+\textbf{•} Built a resilient email service with retry logic, provider fallback, idempotency, and rate limiting. \\
+\textbf{•} Added circuit breaker and status tracking for fault tolerance and observability.
+
+\textbf{Lisica Tech} \hfill  \\
+\textbf{Data Visualization Intern} \\
+\textbf{•} Technologies: Python, Matplotlib, Seaborn, KNIME, Google Colab \\
+\textbf{•} Built interactive dashboards using Matplotlib, Seaborn, and KNIME in Python. \\
+\textbf{•} Automated visual analytics for the UCL dataset on Google Colab.
+
 \section{Projects}
-\textbf{Vision – AI-Powered Learning Summarizer} \\
-\href{https://github.com/Priyankshu-07/VISION}{github.com/Priyankshu-07/VISION} \\
-\begin{highlights}
-\item Developed an AI-powered summarization tool that extracts and summarizes content from YouTube videos, PDFs, and typed text using Whisper and fine-tuned T5 model.
-\item Integrated FastAPI backend with MongoDB to handle multi-input workflows, summary generation, and dynamic question paper creation via LangChain and Groq API.
-\item Built an interactive Streamlit frontend offering end-to-end functionality for students and educators to generate concise notes and exam-ready questions.
-\end{highlights}
-\vspace{1pt}
-\textbf{YAP – Real-Time Chat and Video Call App} \\
-\href{https://github.com/Priyankshu-07/YAP}{github.com/Priyankshu-07/YAP} \\
-\begin{highlights}
-\item Built a modular Node.js + Express.js system supporting peer-to-peer video communication.
-\item Integrated WebRTC and Socket.IO to enable low-latency messaging and video features.
-\end{highlights}
-\vspace{1pt}
-\textbf{VoltMail – AI Cold Email Generator} \\
-\href{https://github.com/Priyankshu-07/VoltMail}{github.com/Priyankshu-07/VoltMail} \\
-\begin{highlights}
-\item Developed AI-powered cold email assistant using Streamlit and Express.js.
-\item Implemented a RAG pipeline using ChromaDB and Cohere embeddings for personalized responses.
-\item Integrated Groq LLaMA3 for email generation and used MongoDB for analytics tracking.
-\end{highlights}
+\textbf{Vision – AI-Powered Learning Summarizer} | \href{https://github.com/Priyankshu-07/VISION}{Github} | \\
+\textbf{•} Technologies: Python, FastAPI, MongoDB, LangChain, Groq API, Whisper, T5, Streamlit \\
+\textbf{•} Developed an AI-powered summarization tool that extracts and summarizes content from YouTube videos, PDFs, and typed text using Whisper and fine-tuned T5 model. \\
+\textbf{•} Integrated FastAPI backend with MongoDB to handle multi-input workflows, summary generation, and dynamic question paper creation via LangChain and Groq API. \\
+\textbf{•} Built an interactive Streamlit frontend offering end-to-end functionality for students and educators to generate concise notes and exam-ready questions.
+
+\textbf{YAP – Real-Time Chat and Video Call App} | \href{https://github.com/Priyankshu-07/YAP}{Github} | \\
+\textbf{•} Technologies: Node.js, Express.js, WebRTC, Socket.IO \\
+\textbf{•} Built a modular Node.js + Express.js system supporting peer-to-peer video communication. \\
+\textbf{•} Integrated WebRTC and Socket.IO to enable low-latency messaging and video features.
+
+\textbf{VoltMail – AI Cold Email Generator} | \href{https://github.com/Priyankshu-07/VoltMail}{Github} | \\
+\textbf{•} Technologies: Python, Streamlit, Express.js, ChromaDB, Cohere, Groq LLaMA3, MongoDB \\
+\textbf{•} Developed AI-powered cold email assistant using Streamlit and Express.js. \\
+\textbf{•} Implemented a RAG pipeline using ChromaDB and Cohere embeddings for personalized responses. \\
+\textbf{•} Integrated Groq LLaMA3 for email generation and used MongoDB for analytics tracking.
+
 \section{Technical Skills}
 \textbf{Languages:} Python, Java, JavaScript \\
-\textbf{Frameworks:} FastAPI, Node.js, Express.js, LangChain \\
+\textbf{ML Technologies/Frameworks:} LangChain, Whisper, T5, Groq \\
+\textbf{Backend Frameworks:} FastAPI, Node.js, Express.js \\
 \textbf{Databases:} MongoDB, MySQL \\
-\textbf{Tools:} Git, GitHub, Render, Vercel, Railway \\
-\textbf{Tech:} WebRTC, Socket.IO, JWT, Multer, ChromaDB, Groq, Whisper, T5, Streamlit
-\section{Certifications \& Achievements}
-\textbf{Innovate 2.0 – MSIT} \\
-Led a 5-member team to build an AI-based image editing application, showcased during MSIT's annual innovation event.
+\textbf{Developer Tools:} Git, GitHub, Render, Vercel, Railway \\
+\textbf{Web Technologies:}  Socket.IO, JWT, Multer, Streamlit
+
+\section{Leadership Experience}
+\textbf{Innovate 2.0 – MSIT} \hfill Kolkata, India \\
+\textbf{Team Lead} \\
+\textbf{•} Led a 5-member team to build an AI-based image editing application, showcased during MSIT's annual innovation event. \\
+\textbf{•} Coordinated project development, task distribution, and technical implementation across multiple phases.
+
 \end{document}
